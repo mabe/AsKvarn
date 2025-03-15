@@ -66,6 +66,7 @@ layout: default
 </section>
 
 <section class="wrapper style1 align-center">
+    <div class="gallery style2 medium lightbox onscroll-fade-in">
     {% for post in site.posts %}
         <article>
             <a href="{{ post.url }}" class="image">
@@ -81,4 +82,5 @@ layout: default
             </div>
         </article>
     {% endfor %}
+    </div>
 </section>
