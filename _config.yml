@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Åsvärderkvarn
+title: Ås värderkvarn
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Åsväderkvarn ligger i samhället Derome nordöst om Varberg. Kvarnen flyttades hit under sena 1800-talet och togs ur bruk 1965. 
+  Ås väderkvarn ligger i samhället Derome nordöst om Varberg. Kvarnen flyttades hit under sena 1800-talet och togs ur bruk 1965. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
