@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ås värderkvarn
-email: your-email@example.com
+email: magnus.bertilsson@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ås väderkvarn ligger i samhället Derome nordöst om Varberg. Kvarnen flyttades hit under sena 1800-talet och togs ur bruk 1965. 
 domain: mabe.github.io
