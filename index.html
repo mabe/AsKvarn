@@ -86,12 +86,12 @@ layout: default
     {% for post in site.posts %}
         <article>
             <a href="{{ post.url }}" class="image">
-                <img src="images/Flygfoto2.jpg" alt="" />
+                <img src="{{ post.image }}" alt="" />
             </a>
             <div class="caption">
                 <h3>{{ post.title }}</h3>
                 <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-                <p>{{ descroåtopm }}</p>
+                <p>{{ post.description }}</p>
                 <ul class="actions">
                     <li><a href="{{ post.url }}"><span class="button small">Details</span></a></li>
                 </ul>
