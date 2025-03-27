@@ -18,7 +18,7 @@ email: magnus.bertilsson@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ås väderkvarn ligger i samhället Derome nordöst om Varberg. Kvarnen flyttades hit under sena 1800-talet och togs ur bruk 1965. 
 domain: mabe.github.io
-baseurl: /AsKvarn/ # the subpath of your site, e.g. /blog
+baseurl: /AsKvarn # the subpath of your site, e.g. /blog
 url: https://mabe.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 
