@@ -85,7 +85,7 @@ layout: default
     <div class="gallery style2 medium lightbox onscroll-fade-in">
     {% for post in site.posts %}
         <article>
-            <a href="{{ site.baseurl }}/{{ post.url }}" class="image">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="image">
                 <img src="{{ site.baseurl }}/{{ post.image }}" alt="" />
             </a>
             <div class="caption">
@@ -93,7 +93,7 @@ layout: default
                 <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
                 <p>{{ post.description }}</p>
                 <ul class="actions">
-                    <li><a href="{{ site.baseurl }}/{{ post.url }}"><span class="button small">Details</span></a></li>
+                    <li><a href="{{ site.baseurl }}{{ post.url }}"><span class="button small">Details</span></a></li>
                 </ul>
             </div>
         </article>
