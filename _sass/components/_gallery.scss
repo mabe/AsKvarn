@@ -90,6 +90,9 @@
 			overflow: hidden;
 			position: relative;
 			width: 25%;
+			height: 20rem;
+			display: flex;
+			align-items: center;
 
 			.image {
 				@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
