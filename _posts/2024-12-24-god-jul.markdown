@@ -4,5 +4,6 @@ title:  "God jul"
 date:   2024-12-24 12:00:00 +0200
 image: images/20241224_1.jpg
 description: "Vi önstar alla en God Jul!"
+type: banner
 ---
 &nbsp;
