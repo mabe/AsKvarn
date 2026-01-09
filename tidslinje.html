@@ -34,7 +34,7 @@ layout: default
           <p>{{ event.description }}</p>
           {% if event.image %}
           <div class="timeline-image">
-            <img src="{{ site.baseurl }}/{{ event.image }}" alt="{{ event.title }}" />
+            <img src="{{ event.image | prepend: site.baseurl }}" alt="{{ event.title }}" />
           </div>
           {% endif %}
         </div>
