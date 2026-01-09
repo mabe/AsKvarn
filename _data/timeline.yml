@@ -1,0 +1,58 @@
+- year: 1700
+  title: Kvarnens ursprung
+  description: Exakt ålder okänd, men kvarnen lär vara från 1700-talet. Kvarnen är en mycket kraftig åttakantig hättkvarn i fyra våningar.
+
+- year: 1865
+  title: Första mjölnaren
+  description: Andreas Andersson arbetar som mjölnare i kvarnen (1865-67).
+
+- year: 1877
+  title: Kvarnen flyttas
+  description: Kvarnen lär vara flyttad från Stafsinge på uppdrag av gästgivaren på Åsbro gästgiveri och har legat på nuvarande plats sedan dess.
+
+- year: 1895
+  title: Kvarnens konkurs
+  description: Kvarnägaren N.A. Stehns konkurs. Kvarnen säljs genom offentlig auktion i augusti 1896.
+
+- year: 1911
+  title: Modernisering påbörjas
+  description: Kvarnen börjar moderniseras för att förbättra produktionsförmågan.
+
+- year: 1913
+  title: Fotogenmotor installeras
+  description: Ås väderkvarn blir banbrytande i Halland som den första att installera en fotogenmotor för att ersätta vindkraften. Detta möjliggjorde att kvarnen kunde mala året runt.
+  image: images/1978.jpg
+
+- year: 1920
+  title: Elektrisk motor
+  description: En elektrisk motor installeras som ersätter råoljemotorn. Kvarnen kan nu drivas både med vind och elektricitet.
+
+- year: 1934
+  title: Fortsatt verksamhet
+  description: Kvarnen fungerar som tullkvarn där kunder betalar avgift för att få sitt spannmål malt. 3 kr för 100 kg vete, 2 kr för 100 kg råg, och 25 öre för 100 kg fodersäd.
+
+- year: 1939
+  title: Olycka i kvarnen
+  description: En olycka inträffar i kvarnen som påverkar verksamheten.
+
+- year: 1954
+  title: Sista vingen tas ned
+  description: Den sista av kvarnens vingar tas ned. Kvarnen drivs nu enbart med elektrisk motor.
+  image: images/Flygfoto1.jpg
+
+- year: 1965
+  title: Kvarnen tas ur bruk
+  description: Kvarnen tas ur bruk efter att ha varit i drift i över 150 år på denna plats.
+
+- year: 1969
+  title: Träpanel ersätter spån
+  description: Träspånen byts ut mot träpanel när Hembyggsföreningen tar över ansvar för underhållet.
+
+- year: 2012
+  title: Restaurering påbörjas
+  description: Arbete för att bevara och restaurera den historiska kvarnen inleds.
+
+- year: 2023
+  title: Fortsatt bevarande
+  description: Kvarnen fortsätter att vara en viktig del av lokalhistorien och bevaras för framtida generationer.
+  image: images/kvarnen2.png

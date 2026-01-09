@@ -43,6 +43,7 @@
 		@include color-gallery($p);
 		@include color-items($p);
 		@include color-index($p);
+		@include color-timeline($p);
 	}
 
 	@mixin phone($image-width) {
@@ -176,6 +177,7 @@
 	@import 'components/wrapper';
 	@import 'components/items';
 	@import 'components/index';
+	@import 'components/timeline';
 
 // Layout.
 

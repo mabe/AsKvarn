@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+  <div class="content">
+    <h1><a href="{{ site.baseurl }}">{{site.title}}</a></h1>
+    <h3>Tidslinje</h3>
+    <p class="major">En resa genom kvarnens historia från 1700-talet till idag</p>
+    <ul class="actions vertical">
+      <li><a href="#first" class="button big wide smooth-scroll-middle">Se tidslinjen</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="{{ site.baseurl }}/images/Kvarnen3.jpg" alt="" />
+  </div>
+</section>
+
+<section class="wrapper style1 align-center" id="first">
+  <div class="inner">
+    <h2>Ås kvarn genom tiderna</h2>
+    <p>Från vindkraft till elektricitet - en historisk resa genom kvarnens utveckling och modernisering</p>
+  </div>
+</section>
+
+<section class="wrapper style1 align-center">
+  <div class="inner">
+    <div class="timeline">
+      {% for event in site.data.timeline %}
+      <div class="timeline-item">
+        <div class="timeline-year">{{ event.year }}</div>
+        <div class="timeline-content">
+          <h3>{{ event.title }}</h3>
+          <p>{{ event.description }}</p>
+          {% if event.image %}
+          <div class="timeline-image">
+            <img src="{{ event.image | prepend: site.baseurl }}" alt="{{ event.title }}" />
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
