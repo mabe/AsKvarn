@@ -19,7 +19,7 @@ The site is live at: [https://mabe.github.io/AsKvarn](https://mabe.github.io/AsK
 ### Content Structure
 - **Posts**: `_posts/YYYY-MM-DD-title.markdown`
 - **Layouts**: `_layouts/default.html` (main wrapper), `_layouts/post.html`
-- **Pages**: Root-level HTML files (`index.html`, `about.html`, `history.html`, `other.html`)
+- **Pages**: Root-level HTML files (`index.html`, `about.html`, `history.html`, `other.html`, `asbro.html`, `teknik.html`)
 - **Images**: `images/` directory with historical photos (JPG format)
 
 ### Key Components
