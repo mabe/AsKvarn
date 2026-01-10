@@ -25,61 +25,18 @@ layout: default
     <div class="content">
       <h3>Mjölnare i kvarnen</h3>
         <dl>
-         <dt>1865-67 Andreas Andersson <i>Mjölnare</i></dt>
+        {% for miller in site.data.millers %}
+          <dt>{{ miller.years }} {{ miller.name }} {% if miller.role %}<i>{{ miller.role }}</i>{% endif %}</dt>
           <dd>
-            <p></p>
-          </dd>
-          <dt>1871-73 Lars Nilsson <i>Mjölnardräng/Mjölnare</i></dt>
-          <dd>
-            <p></p>
-          </dd>
-          <dt>1878-84 Carl Hansson</dt>
-          <dd>
-            <p></p>
-          </dd>
-          <dt>1882-86 Johan Petter Andersson <i>Arrendator/Mjölnare</i></dt>
-          <dd>
-            <p></p>
-          </dd>
-          <dt>1885-92 August Andreasson <i>Mjölnare</i></dt>
-          <dd>
-            <p></p>
-          </dd>
-          <dt>1893-96 Noach Alfred Svensson <i>Mjölnare/Kvarnägare</i></dt>
-          <dd>
+            {% if miller.quote %}
             <blockquote>
-              <b>Auktion.</b>
-              Genom offentlig auktion, som på stället förrättas tisdagen den 25 augusti kl.12 p. d. kommer, jämlikt borgenärernas beslut i kvarnägaren N.A. Stehns konkurs, att till högstbjudande försäljas konkursboet tillhöriga Ås Väderkvarn, belägen i Ås socken i mäldrik trakt strax vid Åsbro gästgifvaregård och Derome järnvägsstation. Innehåller 4 par stenar, däraf 2 par sammälds-, ett par topp- och ett par finsikt -samt skalverk. Till kvarnen, som är taxerad till 6,000kr., hörer ett boningshus af trä, innehållande 3 rum samt kök och förstuga, jämte nödiga uthusbyggnader och smedja, murade af gråsten.
-              Betalnings- och öfriga villkor blifva före auktionens början tillkännagifna, och kunna spekulanter dessförinnan härom erhålla underrättelse af undertecknande, sysslomän i konkursen. Samma dag kl. 3 e. m. kommer jämväl att försäljas all lösegendom i konkursboet, bestående af: möbler och husgerådssaker, sängkläder och linne m.m. samt 40 st. höns. 
-              Åsbro & Bossgården den 13 aug. 1896.
-              Joh:s Börjesson J.Nilssson.
-              <br />Varbergsposten - 1896-08-14 & 1896-08-18 
+              {{ miller.quote }}
             </blockquote>
-          </dd>
-          <dt>1896-1900 Nils Nilsson <i>Mjölnare</i></dt>
-          <dd>
+            {% else %}
             <p></p>
+            {% endif %}
           </dd>
-          <dt>1901-07 Johan Eliasson <i>Mjölnare</i></dt>
-          <dd>
-            <p></p>
-          </dd>
-          <dt>1907-08 Karl Bernhard Andersson <i>Mjölnare/Kvarnägare</i></dt>
-          <dd>
-            <p></p>
-          </dd>
-          <dt>1907-09 Anders Johan Bengtsson <i>Dräng/Kvarnägare</i></dt>
-          <dd>
-            <p></p>
-          </dd>
-          <dt>1908- Gustav Ludvig Svensson <i>Mjölnare/Kvarnägare</i></dt>
-          <dd>
-            <p></p>
-          </dd>
-          <dt>1917-18 Karl Herbert Nilsson <i>Mjölnare</i></dt>
-          <dd>
-            <p></p>
-          </dd>
+        {% endfor %}
         </dl>
       </div>
     <div class="image">
